@@ -40,7 +40,9 @@ Just for fun: I was bored the other day and decided to upgrade Watson to just
 go ahead and submit the answers for me. And if you’re wondering…[no, my
 girlfriend was not amused](https://vimeo.com/115355438).
 
-Timeline of Disclosure Dec 2, 2014 — Sent request to Trivia Crack support about issue. Also tweeted to @triviacrack. Tweet response from @triviacrack acknowledging they received the request.
+#### Timeline of Disclosure
+
+Dec 2, 2014 — Sent request to Trivia Crack support about issue. Also tweeted to @triviacrack. Tweet response from @triviacrack acknowledging they received the request.
 
 Dec 12, 2014 — Sent status request to Trivia Crack support, and request to write a blog post.
 
