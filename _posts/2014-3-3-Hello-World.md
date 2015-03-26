@@ -9,8 +9,6 @@ medium.com - original link [here](https://medium.com/@iamchippa/the-cracks-in-tr
 ----
 
 
-The cracks in Trivia Crack A little design flaw that allowed me to never lose.
-
 My girlfriend started playing this game on iOS called Trivia Crack. Naturally, she wanted me to join, so I downloaded it to my iPad and started spinning the wheel. Fun questions and a fun game! It’s been #1 in the App Store for a bit now, and I can see why. The general idea is to answer questions from six different categories — the person that wins all six categories wins the game. Get a question correct, and you keep playing. Get a question wrong, and it’s the other players turn. Simple, straightforward, and a bit addicting.
 
 ![]({{ site.baseurl }}/images/trivia-crack/Trivia_Crack_screenshot.jpg)
