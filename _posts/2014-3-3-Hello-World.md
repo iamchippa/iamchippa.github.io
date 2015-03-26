@@ -6,7 +6,7 @@ title: The Cracks in Trivia Crack
 Since I just spun up my github blog pages, I'm moving this post over from
 medium.com - original link [here](https://medium.com/@iamchippa/the-cracks-in-trivia-crack-3fac78b50f38)
 
-==================
+----
 
 The cracks in Trivia Crack A little design flaw that allowed me to never lose.
 
