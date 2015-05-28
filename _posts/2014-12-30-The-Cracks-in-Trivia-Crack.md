@@ -13,19 +13,19 @@ My girlfriend started playing this game on iOS called Trivia Crack. Naturally, s
 
 ![]({{ site.baseurl }}/images/trivia-crack/Trivia_Crack_screenshot.jpg)
 
-The interfaces of Trivia Crack: Spinner, Dashboard, QuestionsI have a ton of fun seeing what apps are doing “under the hood”. For instance, I regularly pipe my iPad traffic through Burp, just to see what the API calls look like. Sometimes I find nothing, sometimes I find something interesting, and then sometimes I find things that make me chuckle a bit. This is one of the latter.
+I have a ton of fun seeing what apps are doing “under the hood”. For instance, I regularly pipe my iPad traffic through Burp, just to see what the API calls look like. Sometimes I find nothing, sometimes I find something interesting, and then sometimes I find things that make me chuckle a bit. This is one of the latter.
 
 Refreshing the dashboard on the home screen returned a fairly large JSON response. Looking at the response, I realized that there were some keys with interesting values — the question that was about to be asked, along with the answer to said question.
 
 ![]({{ site.baseurl }}/images/trivia-crack/tc_json.png)
 
-JSON response with the question and correct answerMy suspicion was confirmed after I spun the wheel. The question in the JSON response was the next question asked! I selected the correct answer, cracked a smile, and clicked continue. I looked back over at Burp and sent another request to the Dashboard API. Boom. New question and answer in the response.
+My suspicion was confirmed after I spun the wheel. The question in the JSON response was the next question asked! I selected the correct answer, cracked a smile, and clicked continue. I looked back over at Burp and sent another request to the Dashboard API. Boom. New question and answer in the response.
 
 Thinking about how funny/awesome this was (and thinking how I’d never lose again), I wanted to take it a step further and make a quick script to get the answers for me. Named “Watson”, after IBM’s famous Jeopardy contestant, the script will make a request to the Dashboard API, parse through the JSON response and spit out the answer to the next question in a nice, neat format.
 
 ![]({{ site.baseurl }}/images/trivia-crack/trivia_crack_watson_short.gif)
 
-watson.py in action — link to the full videoWhile this was all fun and games, this design flaw is effectively game breaking. A better way to handle this would be to process the answer on the server side, and return a “correct” or “incorrect” response to the answer being submitted.
+While this was all fun and games, this design flaw is effectively game breaking. A better way to handle this would be to process the answer on the server side, and return a “correct” or “incorrect” response to the answer being submitted.
 
 I passed this issue, and a few others, over to the Trivia Crack team to fix. I received a tweet acknowledgment that my support request was received, but haven’t been able to get a response or update since.
 
